@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lplplp101/windows-print-mcp",
+  "title": "Windows Print",
+  "description": "Print PDF files to local printers on a Windows PC (page ranges, copies, duplex, B&W).",
+  "repository": {
+    "url": "https://github.com/lplplp101/print-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "windows-print-mcp",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

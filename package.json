@@ -1,0 +1,35 @@
+{
+  "name": "windows-print-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that lets Claude (or any MCP client) print PDF files on a Windows PC",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "windows-print-mcp": "server.js"
+  },
+  "files": [
+    "server.js",
+    "print.ps1",
+    "README.md",
+    "LICENSE"
+  ],
+  "mcpName": "io.github.lplplp101/windows-print-mcp",
+  "os": ["win32"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "claude", "print", "printer", "pdf", "windows"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lplplp101/print-mcp.git"
+  },
+  "homepage": "https://github.com/lplplp101/print-mcp#readme",
+  "bugs": "https://github.com/lplplp101/print-mcp/issues",
+  "author": "lplplp101",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "pdf-to-printer": "^5.8.1",
+    "zod": "^3.25.0"
+  }
+}
